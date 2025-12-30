@@ -4,59 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Profil Diri</title>
-  <!-- <title> menampilkan judul halaman di tab browser -->
 </head>
 
 <body style="background-color: #f4f4f4;">
-<!-- style digunakan untuk memberi background halaman berwarna abu-abu muda -->
 
   <h1>Profil Pribadi</h1>
 
-  <!-- Foto & Video -->
   <div>
 
     <div style="display:inline-block; margin-right:20px; text-align: center;">
-      <!-- <div> ini digunakan untuk menampilkan foto profil secara horizontal dengan video -->
-      <!-- display:inline-block memungkinkan div berbaris horizontal -->
-      <!-- margin-right memberi jarak ke kontainer sebelah kanan -->
-      <!-- teks-align membuat teks berada ditengah -->
-
       <h3>Foto Profil</h3>
       <img src="fotoDiri.jpg" alt="Foto Profil" width="200">
-      <!-- <img> menampilkan gambar. Attribute src untuk path file, alt untuk teks alternatif, width untuk ukuran -->
     </div>
 
     <div style="display:inline-block; text-align: center;">
-      <!-- <div> ini digunakan untuk menampilkan video -->
       <h3>Video Perkenalan</h3>
       <video width="300" controls>
-        <!-- <video> menampilkan video dengan lebar 300px -->
-        <!-- attribute controls menampilkan tombol play, pause, dll -->
         <source src="vidioPerkenalan.mp4" type="video/mp4">
-        <!-- <source> menunjuk file video dan formatnya -->
       </video>
     </div>
   </div>
 
-  <!-- Tentang Saya -->
   <h2>Tentang Saya</h2>
   <p>Halo! Saya seorang mahasiswa teknologi informasi yang sedang mengerjakan tugas praktikum pemograman web.</p>
-  <!-- <p> menampilkan paragraf teks -->
 
-  <!-- Tabel Pendidikan -->
   <h2>Pendidikan</h2>
-  <!-- <h2> sub-judul untuk bagian pendidikan -->
   <table border="1">
-    <!-- <table> menampilkan data dalam bentuk tabel. border="1" menambahkan garis tepi -->
     <tr>
-      <!-- <tr> mendefinisikan satu baris tabel -->
       <th>Tahun</th>
-      <!-- <th> menandai sel header tabel -->
       <th>Pendidikan</th>
     </tr>
     <tr>
       <td>2017-2019</td>
-      <!-- <td> sel data tabel -->
       <td>SMPN 12 Bandung</td>
     </tr>
     <tr>
@@ -68,28 +47,19 @@
       <td>Telkom University</td>
     </tr>
   </table>
-
-  <!-- Formulir Kontak -->
+  
   <h2>Hubungi Saya</h2>
-  <!-- <h2> sub-judul untuk bagian formulir -->
+
   <form>
-    <!-- <form> digunakan untuk membuat formulir input -->
     Nama: <input type="text" name="nama"><br><br>
-    <!-- <input type="text"> input teks untuk nama -->
     Email: <input type="email" name="email"><br><br>
-    <!-- <input type="email"> input untuk alamat email dengan validasi dasar -->
     Pesan:<br>
     <textarea name="pesan" rows="4" cols="30"></textarea><br><br>
-    <!-- <textarea> input area untuk pesan panjang -->
     <button type="submit">Kirim Pesan</button>
-    <!-- <button type="submit"> tombol untuk mengirim form -->
   </form>
 
-  <!-- Link Sosial Media -->
   <h3>Media Sosial:</h3>
-  <!-- <h3> sub-judul untuk bagian link sosial media -->
   <a href="https://www.instagram.com/fauziridho_2?igsh=MThpZHhwa3h2cjJpdw==">Instagram</a> |
-  <!-- <a> hyperlink ke Instagram -->
   <a href="https://github.com">GitHub</a> |
   <a href="https://twitter.com">Twitter</a>
 </body>
